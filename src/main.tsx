@@ -9,7 +9,7 @@ const root = ReactDOM.createRoot(document.getElementById('root')!);
 
 root.render(
 	<Provider store={store}>
-		<BrowserRouter>
+		<BrowserRouter basename='/github-search-frontend/'>
 			<App />
 		</BrowserRouter>
 	</Provider>
