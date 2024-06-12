@@ -28,7 +28,7 @@ export function FavouritesCard() {
 								</a>
 								<button
 									className='bg-red-500 text-white px-2 py-1 rounded'
-									onClick={() => removeFromFavourite(f.url)}
+									onClick={removeFromFavourite(f.url)}
 								>
 									Remove
 								</button>
